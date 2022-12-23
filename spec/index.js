@@ -1,9 +1,13 @@
-const add  = function (a, b) {
-     return a + b
+function randomRGB(){
+     const r = Math.floor(Math.random() * 256);
+     const g = Math.floor(Math.random() * 256);
+     const b = Math.floor(Math.random() * 256);
+     return `rgb(${r},${g},${b})`
 }
 
-describe("addition", function() {
-     it("expects 2 plus 2 to be 4", function() {
-          expect(add(2,2) === 4, true)
-     })
-})
+const letters = document.querySelectorAll('.letter');
+const intervalId = setInterval(function(){
+     for (let letter of letters) {
+          letter.style.color = randomRGB();
+     }
+},1000);
