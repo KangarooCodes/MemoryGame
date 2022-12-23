@@ -1,0 +1,122 @@
+#game button {
+  /* border: 3px solid black; */
+  width: 150px;
+  height: 200px;
+  margin: 10px;
+  display: inline-block;
+}
+html {
+  background: rgb(148,148,148);
+background: linear-gradient(90deg, rgba(148,148,148,1) 1%, rgba(110,106,106,1) 29%, rgba(158,158,158,1) 57%, rgba(122,122,122,1) 92%);
+}
+
+.purple{
+  background-image: url("cardBackground.PNG");
+  background-repeat: no-repeat;
+  background-size: 160%;
+  background-position: center;
+  border-color: transparent;
+  background-color: transparent;
+  border-radius: 25px;
+  
+}
+.purple-revealed{
+  background-image: url("grapes.PNG");
+  background-repeat: no-repeat;
+  background-size: 160%;
+  background-position: center;
+  border-color: transparent;
+  background-color: transparent;
+  border-radius: 25px;
+}
+
+.blue {
+  background-image: url("cardBackground.PNG");
+  background-repeat: no-repeat;
+  background-size: 160%;
+  background-position: center;
+  border-color: transparent;
+  background-color: transparent;
+  border-radius: 25px;
+}
+.blue-revealed{
+  background-image: url("blueberry.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+  border-color: transparent;
+  background-color: whitesmoke;
+  border-radius: 25px;
+}
+.green {
+  background-image: url("cardBackground.PNG");
+  background-repeat: no-repeat;
+  background-size: 160%;
+  background-position: center;
+  border-color: transparent;
+  background-color: transparent;
+  border-radius: 25px;
+}
+.green-revealed{
+  background-image: url("Pear.png");
+  background-repeat: no-repeat;
+  background-size: 90%;
+  background-position: center;
+  border-color: transparent;
+  background-color: whitesmoke;
+  border-radius: 25px;
+}
+.red {
+  background-image: url("cardBackground.PNG");
+  background-repeat: no-repeat;
+  background-size: 160%;
+  background-position: center;
+  border-color: transparent;
+  background-color: transparent;
+  border-radius: 25px;
+}
+.red-revealed{
+  background-image: url("tomato.jpg");
+  background-repeat: no-repeat;
+  background-size: 120%;
+  background-position: center;
+  border-color: transparent;
+  background-color: whitesmoke;
+  border-radius: 25px;
+}
+.orange {
+  background-image: url("cardBackground.PNG");
+  background-repeat: no-repeat;
+  background-size: 160%;
+  background-position: center;
+  border-color: transparent;
+  background-color: transparent;
+  border-radius: 25px;
+}
+.orange-revealed{
+  background-image: url("orange.jpg");
+  background-repeat: no-repeat;
+  background-size: 110%;
+  background-position: center;
+  border-color: transparent;
+  background-color: whitesmoke;
+  border-radius: 25px;
+}
+.title {
+  transition: color 2000ms;
+  text-shadow: 1px 1px 3px black;
+}
+
+#winner {
+  font-size: 2rem;
+  text-shadow: 1px 1px 3px black;
+}
+
+#score {
+  font-size: 2rem;
+  text-shadow: 1px 1px 3px black;
+}
+#scores {
+  font-size: 1.5rem;
+  text-shadow: 1px 1px 1px black;
+}
